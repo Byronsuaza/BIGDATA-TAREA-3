@@ -124,7 +124,8 @@ sudo /opt/Kafka/bin/kafka-server-start.sh /opt/Kafka/config/server.properties &
 
 ⏰ **Espera 5-10 segundos** hasta ver:
 ```
-INFO [KafkaServer id=0] started
+ INFO [Partition taxi_trips-0 broker=0] Log loaded for partition taxi_trips-0 with initial high watermark 0 (kafka.cluster.Partition)
+Created topic taxi_trips.
 ```
 
 Presiona **Enter**.
