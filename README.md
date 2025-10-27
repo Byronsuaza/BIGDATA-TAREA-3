@@ -332,13 +332,6 @@ Aunque este proyecto utiliza **datos simulados**, está basado en el dataset rea
 
 ---
 
-## 🎓 Contexto Académico
-
-**Universidad:** Universidad Nacional Abierta y a Distancia (UNAD)  
-**Programa:** Ingeniería de Sistemas  
-**Curso:** Big Data  
-**Código:** 202016911  
-**Tarea:** Análisis de Datos en Tiempo Real con Spark Streaming y Kafka
 
 ---
 
