@@ -306,6 +306,33 @@ Métricas calculadas cada minuto:
 - **Brooklyn:** Segunda mayor demanda con distancias intermedias
 - **Staten Island:** Menor demanda pero tarifas más altas por distancias largas
 
+## 🗂️ Procesamiento Batch
+
+### Generar Dataset
+\`\`\`bash
+python3 generate_taxi_dataset.py
+\`\`\`
+
+### Ejecutar Procesamiento Batch
+\`\`\`bash
+spark-submit batch_processing_taxi.py
+\`\`\`
+
+### Resultados
+Los resultados se guardan en `output_batch_processing/`:
+- **clean_data/**: Datos limpios en formato Parquet
+- **zone_analysis/**: Análisis por zona en CSV
+- **payment_analysis/**: Análisis por tipo de pago en CSV
+- **popular_routes/**: Top 100 rutas más populares en CSV
+
+### Análisis Realizados
+1. Limpieza de datos (eliminación de nulos y outliers)
+2. Transformación (columnas derivadas)
+3. Análisis exploratorio por zona, tipo de pago y rutas
+4. Estadísticas descriptivas completas
+5. Detección de anomalías
+\`\`\`
+
 
 ## 📁 Estructura del Proyecto
 
