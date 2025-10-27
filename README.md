@@ -6,21 +6,6 @@ Sistema de análisis en tiempo real de datos de taxis de Nueva York utilizando A
 
 ---
 
-## 📋 Tabla de Contenidos
-
-- [Descripción del Proyecto](#descripción-del-proyecto)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Requisitos Previos](#requisitos-previos)
-- [Instalación](#instalación)
-- [Configuración](#configuración)
-- [Ejecución](#ejecución)
-- [Arquitectura del Sistema](#arquitectura-del-sistema)
-- [Análisis Realizados](#análisis-realizados)
-- [Resultados Esperados](#resultados-esperados)
-- [Troubleshooting](#troubleshooting)
-- [Autor](#autor)
-
----
 
 ## 🎯 Descripción del Proyecto
 
