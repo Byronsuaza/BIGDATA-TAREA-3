@@ -111,7 +111,7 @@ sudo /opt/Kafka/bin/zookeeper-server-start.sh /opt/Kafka/config/zookeeper.proper
 
 ⏰ **Espera 5-10 segundos** hasta ver el mensaje:
 ```
-INFO binding to port 0.0.0.0/0.0.0.0:2181
+ INFO ZooKeeper audit is disabled. (org.apache.zookeeper.audit.ZKAuditProvider)
 ```
 
 Presiona **Enter** para recuperar el prompt.
