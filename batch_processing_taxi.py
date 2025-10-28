@@ -33,17 +33,12 @@ print("-" * 80)
 # Opción A: CSV generado
 csv_path = "nyc_taxi_data.csv"
 
-# Opción B: Parquet descargado (descomenta si usas Parquet)
-# csv_path = "yellow_tripdata_2024-01.parquet"
-
 print(f"Leyendo archivo: {csv_path}")
 start_time = time.time()
 
 # Leer CSV
 df = spark.read.csv(csv_path, header=True, inferSchema=True)
 
-# Si usas Parquet, usa esto en su lugar:
-# df = spark.read.parquet(csv_path)
 
 load_time = time.time() - start_time
 print(f"✅ Datos cargados en {load_time:.2f} segundos")
